@@ -1,0 +1,27 @@
+.banner-title{
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.bg-bannar{
+    background-image: url('../../Images/doctor2.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    top: 0%;
+}
+.play-container{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #E12454;
+    cursor: pointer;
+}
+.play-icon{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.doctor{
+    width: 50%;
+}

@@ -1,0 +1,41 @@
+.max-footer-icon{
+    color: #E12454;
+    transition: all 0.5s;
+}
+.max-footer-icon:hover{
+    color: white;
+    display: inline-block;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg); 
+    transform: rotate(15deg);
+}
+.arrow-icon-footer{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+.icon-address{
+    font-size: 30px;
+    color: white;
+    transition: all 0.1s;
+}
+.text-address h4, span{
+    color: white;
+}
+.text-address h4{
+    font-weight: 600;
+}
+.icon-address:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+.icon-contain:hover .icon-address{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1); 
+    transform: scale(1.1);
+}

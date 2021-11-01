@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "title":"CARING FOR YOUR FAMILY’S HEALTH IN A POST-PANDEMIC WORLD",
+        "description":"The last eighteen months have been a rollercoaster; anyone will tell you that. With our entire lives brought to a standstill seemingly overnight, there will undoubtedly be some people reading this and beyond who contemplated the broader aspects of their lives and what was truly important to them. For the most part, this was the likes of family and friends. Being unable to see family and friends for a prolonged period caused feelings of sadness and loneliness and left us pining for days past.",
+        "image":"https://artofhealthyliving.com/wp-content/uploads/2021/10/caring-for-your-family-in-a-post-pandemic-world.jpg"
+    },
+    {
+        "id":2,
+        "title":"A WINNING SMILE: CAN CBD HELP PROMOTE ORAL HEALTH?",
+        "description":"We all want a perfect smile – with straight, white, healthy teeth. There are many things that go into making your smile a winning one, but what about CBD? Can it help to sustain the health of our mouth and teeth? Make sure that you stay tuned to find out!",
+        "image":"https://artofhealthyliving.com/wp-content/uploads/2021/10/winning-smile.jpg"
+    },
+    {
+        "id":3,
+        "title":"PANAMANIAN FOODS THAT ARE DELICIOUS",
+        "description":"Panama is located in Central America between the Caribbean and the Pacific Ocean. It is a tropical destination that many people love to visit. It is known for the Panama Canal, whitewater rafting, the beautiful birds, and the food. Keep reading this article if you want to know the best Panamanian foods to try next time you are in Panama.",
+        "image":"https://artofhealthyliving.com/wp-content/uploads/2021/10/panamanian-food.jpg"
+    },
+    {
+        "id":4,
+        "title":"THESE ARE 5 THINGS YOU SHOULD KNOW ABOUT HEALTH INSURANCE",
+        "description":"Chances are good you’re in a life transition. You’ve got your first job, aged out of your parents’ health insurance, or maybe you’ve lost a job and are in the process of job hunting. Regardless of the situation, you need to find quality health care coverage – preferably quickly. Finding the best health insurance for you and your family doesn’t have to be overwhelming. Check out these five tips to make finding your best health care option a breeze.",
+        "image":"https://artofhealthyliving.com/wp-content/uploads/2021/10/health-insurance.jpg"
+    },
+    {
+        "id":5,
+        "title":"5 REASONS YOU SHOULD TAKE A REST DAY",
+        "description":"Remember the days of falling asleep in the back of your parents’ car, without a care in the world? It’s hard to relax like that in the day to day after reaching adulthood. However, knowing how to rest well will set you up for success in work and life. Your body and mind need the occasional timeout to function well, and ignoring that need can lead to painful consequences. While it’s hard to carve time out of your day to rest, it’s also more important than you likely realize. Backed by evidence and research, here are five reasons why you should take a rest day.",
+        "image":"https://artofhealthyliving.com/wp-content/uploads/2021/10/rest-day.jpg"
+    }
+]

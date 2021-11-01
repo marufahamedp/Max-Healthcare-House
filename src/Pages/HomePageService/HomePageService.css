@@ -1,0 +1,14 @@
+.card-image{
+    width: 100px !important;
+    
+}
+.column{
+    box-shadow: 0 0 50px #ccc;
+    transition: all 0.5s;
+}
+.column:hover{
+    transform: translatey(-30px);
+}
+.cardTitle{
+    font-weight: 900 !important;
+}

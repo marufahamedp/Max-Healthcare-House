@@ -1,0 +1,11 @@
+.check-icon{
+    color: #E12454;
+}
+.send-btn{
+    color: #E12454;
+    cursor: pointer;
+}
+#getTheElement > div > img{
+    width: 50px;
+    border-radius: 100%;
+}

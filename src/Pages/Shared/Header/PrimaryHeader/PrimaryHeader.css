@@ -1,0 +1,41 @@
+.nav-title{
+    font-weight: 600;
+    color: black !important;
+}
+.active-changed:active{
+    background-color: #E12454 !important;
+}
+.active-changed:hover{
+    background-color: transparent !important;
+    color: #E12454 !important;
+}
+.nav-title,
+.nav-title:after,
+.nav-title:before {
+  transition: all .5s;
+}
+.nav-title:hover {
+    color: #E12454;
+  }
+
+  /* stroke */
+  .nav-title,
+  .nav-title {
+  position: relative;
+}
+.nav-title:after,
+.nav-title:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #E12454;
+  height: 3px;
+}
+.nav-title:hover:after {
+  width: 100%;
+}

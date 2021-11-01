@@ -1,0 +1,188 @@
+
+.maxHealthPricingcard{
+	background-color: white;
+    border-radius: 10px;
+}
+
+.maxHealthPricingheader{
+	background-color: #f6f6f6;
+}
+
+.maxHelthPricinghead{
+	border-color: black rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) black;
+    border-style: solid;
+    border-width: 90px 1411px 23px 399px;
+	position: absolute;
+}
+
+.maxHelthPrice .price .sign{
+    color: #414141;
+}
+
+.maxHelthPrice .price .currency{
+    color: #414141;
+}
+
+.maxHelthPrice .price .cent{
+    color: #414141;
+}
+
+.maxHelthPrice .month{
+    color: #414141;
+}
+.maxHelthFeatures{
+    text-align: start;
+}
+.maxHelthFeatures ul li{	
+	color: #a7a7a7;
+}
+
+.maxHelthFeatures ul li span{
+	color: #414141;
+}
+.maxHelthFeatures ul li:hover{
+	background-color: #E4E4E4;
+	border-left: 5px solid #E12454;
+}
+
+.max_health_price_btn a{
+	border: 1px solid #E12454; 
+    color: #E12454;
+} 
+
+.maxHealthPricingcard.active .maxHelthPricinghead,
+.maxHealthPricingcard:hover .maxHelthPricinghead{
+	border-color: #E12454 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #E12454;
+	color: white;
+}
+
+.maxHealthPricingcard:hover .head span,
+.maxHealthPricingcard.active .head span{
+	color: white;
+}
+
+.maxHealthPricingcard:hover .max_health_price_btn a,
+.maxHealthPricingcard.active .max_health_price_btn a{
+	background-color: #E12454;
+	color: white;
+} 
+#maxHalthPriceTable{
+	margin: 50px 0 50px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.row .table{
+    padding: 28px 0;
+}
+
+/*PRICE BODY CODE START*/
+
+.maxHealthPricingcard{
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.maxHealthPricingheader {
+	margin: 0 0 20px 0;
+}
+
+.maxHealthPricingcontent{
+	margin: 0 0 50px 0;
+}
+
+.head{
+	padding-top: 40px;
+	position: relative;
+	z-index: 1;
+}
+.head span{
+    font-family: "Raleway",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.maxHelthPrice{
+	padding: 0 0 20px;
+}
+
+.maxHelthPrice .price{
+	display: block;
+}
+
+.maxHelthPrice .price .sign{
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.maxHelthPrice .price .currency{
+    font-family: "Lato",sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.maxHelthPrice .price .cent{
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+.maxHelthPrice .month{
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+}
+
+.maxHelthFeatures ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.maxHelthFeatures ul li{
+	font-family: "Lato",sans-serif;
+	font-size: 18px;
+	padding: 15px 0;
+	transition: all 0.3s ease-in-out 0s;
+}
+.maxHelthFeatures ul li:hover{
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+}
+.maxHelthFeatures ul li .fa{
+	padding: 0 10px;
+}
+.maxHealthPricingcard,
+.maxHealthPricingcard:hover,
+.maxHelthPricinghead,
+.maxHealthPricingcard:hover .maxHelthPricinghead,
+.head h2,
+.maxHealthPricingcard:hover .head h2,
+.price,
+.maxHealthPricingcard:hover .price,
+.max_health_price_btn a,
+.maxHealthPricingcard:hover .max_health_price_btn a{
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+} 
+

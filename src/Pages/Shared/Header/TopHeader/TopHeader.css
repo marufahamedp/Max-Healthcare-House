@@ -1,0 +1,17 @@
+.icon-background{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: rgba(225,36,84,0.06);
+}
+.top-header-icon{
+    font-size: 28px;
+    color: #E12454;
+}
+.text{
+    color: #7A8A9E;
+}
+.text-number{
+
+}

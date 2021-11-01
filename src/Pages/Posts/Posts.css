@@ -1,0 +1,10 @@
+.post-img{
+    transition: all 0.5s;
+}
+.post-container:hover .post-img{
+    transform: scale(1.5) rotate(10deg);
+}
+.post-img-container{
+    overflow: hidden;
+    border-radius: 10px;
+}
