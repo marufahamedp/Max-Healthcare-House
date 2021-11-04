@@ -7,17 +7,17 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import './Service.css'
 const arrowIcon = <FontAwesomeIcon icon={faArrowRight} />
 const Service = (props) => {
-    const {id, servicesTitle, details, image2} = props.service;
+    const {_id, servicesTitle, details, image2} = props.service;
     return (
         <SmoothList>
             <div>
             <Col className="">
           <Card className="border-0 column">
             <div className="text-center services-container">
-            <Link to={`/service/${id}`}><Card.Img className="services-img" variant="top" src={image2}/></Link>
+            <Link to={`/service/${_id}`}><Card.Img className="services-img" variant="top" src={image2}/></Link>
             <div className="read-more-arrow">
             <div className="d-flex justify-content-center align-items-center">
-            <Link to={`/service/${id}`} className="arrow-background text-decoration-none d-flex justify-content-center align-items-center">
+            <Link to={`/service/${_id}`} className="arrow-background text-decoration-none d-flex justify-content-center align-items-center">
             <span className="arrow-icon">{arrowIcon}</span>
             </Link>
             </div>

@@ -3,8 +3,8 @@ import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Posts.css'
 const Posts = (props) => {
-const {id, image, title, description} = props.posts;
-    console.log(props);
+const {_id, image, title, description} = props.posts;
+   ;
     return (
         <div className="container mb-4 post-container">
             <div className="d-flex align-items-center p-2 border">
@@ -18,7 +18,7 @@ const {id, image, title, description} = props.posts;
                     <div className="m-4">
                     <h4>{title}</h4>
                     <p>{description.slice(0, 100)}</p>
-                    <Link to={`/posts/${id}`} className="max-btn">Read More</Link>
+                    <Link to={`/posts/${_id}`} className="max-btn">Read More</Link>
                 </div>
                     </Col>
                 </Row>

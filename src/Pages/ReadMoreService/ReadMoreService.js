@@ -17,17 +17,12 @@ const ReadMoreService = () => {
     const { serviceID } = useParams();
     const [services, setServices] = useState({});
     useEffect(() => {
-        fetch(`https://marufahamedp.github.io/servicesjson/services.json`)
+        fetch(`http://localhost:5000/healthServices/${serviceID}`)
             .then(res => res.json())
-            .then(data => fix(data));
+            .then(data => setServices(data));
     }, []);
-    const fix = (data) => {
 
-        const toFiendRightID = parseInt(serviceID) - 1;
-        const alfa = data[toFiendRightID];
-        setServices(alfa);
-    }
-    console.log(services);
+    ;
     const { servicesTitle, simpleTitle, simplleDiscription, details, image, image2, buletPointTitle, buletPoint1, buletPoint2, buletPoint3, buletPoint4, buletPoint5 } = services;
 
             // for comments section

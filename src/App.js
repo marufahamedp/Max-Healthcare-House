@@ -16,14 +16,26 @@ import PrivetRoute from './PrivetRoute/PrivetRoute';
 import Footer from './Pages/Shared/Footer.js/Footer';
 import Blog from './Pages/Blogs/Blogs';
 import ReadMorePosts from './Pages/ReadMorePosts/ReadMorePosts';
+import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
+import AddServices from './Pages/Dashboard/AddServices/AddServices';
+import ManageAllServices from './Pages/Dashboard/Dashboard/ManageAllServices/ManageAllServices';
+import AddBlogs from './Pages/Dashboard/AddBlogs/AddBlogs';
+import ManageAllBlogs from './Pages/Dashboard/ManageAllBlogs/ManageAllBlogs';
 
 function App() {
   const [services, setServices] = useState([])
   useEffect(()=>{
-    fetch(`./services.json`)
+    fetch(`http://localhost:5000/healthServices`)
     .then(res=>res.json())
     .then(data=>setServices(data));
-  }, [])
+  }, [services])
+
+  const [maxBlog, setBlogs] = useState([]);
+  useEffect(()=>{
+      fetch(`http://localhost:5000/blogs`)
+      .then(res=>res.json())
+      .then(data=>setBlogs(data))
+  }, [maxBlog])
   return (
     <div className="App">
       <AuthProvider>
@@ -46,7 +58,9 @@ function App() {
           ></Services>
         </PrivetRoute>
         <Route path="/blog">
-          <Blog></Blog>
+          <Blog
+          maxBlog={maxBlog}
+          ></Blog>
         </Route>
         <Route path="/about">
         <About></About>
@@ -63,8 +77,30 @@ function App() {
         <PrivetRoute path="/service/:serviceID">
         <ReadMoreService></ReadMoreService>
         </PrivetRoute>
-        <PrivetRoute path="/posts/:blogId">
+        <PrivetRoute exact path="/posts/:blogId">
           <ReadMorePosts></ReadMorePosts>
+        </PrivetRoute>
+        <PrivetRoute path="/manageallservices">
+          <ManageAllServices
+          services={services}
+          ></ManageAllServices>
+        </PrivetRoute>
+        <PrivetRoute path="/manageallblogs">
+          <ManageAllBlogs
+          maxBlog={maxBlog}
+          ></ManageAllBlogs>
+        </PrivetRoute>
+        <PrivetRoute path="/addservices">
+         <AddServices></AddServices>
+        </PrivetRoute>
+        <PrivetRoute path="/addblogs">
+         <AddBlogs></AddBlogs>
+        </PrivetRoute>
+        <PrivetRoute path="/dashboard">
+         <Dashboard
+         services={services}
+         maxBlog={maxBlog}
+         ></Dashboard>
         </PrivetRoute>
         <Route path="*">
           <PageNotFound></PageNotFound>

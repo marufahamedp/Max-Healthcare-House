@@ -27,7 +27,7 @@ const Login = () => {
       })
   }
 
-  console.log(user);
+  ;
 
   return (
     <div className="mb-lg-5">

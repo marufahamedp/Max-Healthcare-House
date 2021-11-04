@@ -13,16 +13,10 @@ const ReadMorePosts = () => {
     const { blogId } = useParams();
     const [post, setPost] = useState({});
     useEffect(() => {
-        fetch(`https://marufahamedp.github.io/blogsjson/blogs.json`)
+        fetch(`http://localhost:5000/blogs/${blogId}`)
             .then(res => res.json())
-            .then(data => fix(data));
+            .then(data => setPost(data));
     }, []);
-    const fix = (data) => {
-
-        const toFiendRightID = parseInt(blogId) - 1;
-        const alfa = data[toFiendRightID];
-        setPost(alfa);
-    }
     const { id, image, title, description } = post;
 
 

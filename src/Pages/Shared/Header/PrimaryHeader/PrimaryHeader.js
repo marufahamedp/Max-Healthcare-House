@@ -58,7 +58,9 @@ const PrimaryHeader = () => {
                                         View Profile
                                     </NavDropdown.Item>
                                     <NavDropdown.Item className="active-changed text-center" href="#action/3.3">{historyIcon} Order History</NavDropdown.Item>
-                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item />
+                                    <NavDropdown.Item className="active-changed text-center" as={Link} to="dashboard">Dashboard</NavDropdown.Item>
+                                    <NavDropdown.Item />
                                     <NavDropdown.Item className="active-changed text-dark text-center" as={Link} to="/login" onClick={logOut} >
                                     {logOutIcon} Log Out
                                     </NavDropdown.Item>

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import SmoothList from 'react-smooth-list';
 import './HomePageService.css'
 const HomePageService = (props) => {
-    const {id, servicesTitle, details, icon} = props.service;
-    console.log(id);
+    const {_id, servicesTitle, details, icon} = props.service;
+    ;
 
     return (
         // for home page service
@@ -23,7 +23,7 @@ const HomePageService = (props) => {
                {details.slice(0, 80)}....
               </Card.Text>
               <Card.Text className="mt-lg-4">
-              <Link to={`/service/${id}`} className="max-btn">Read More</Link>
+              <Link to={`/service/${_id}`} className="max-btn">Read More</Link>
               </Card.Text>
             </Card.Body>
           </Card>

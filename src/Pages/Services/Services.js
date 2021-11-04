@@ -14,7 +14,7 @@ const Services = (props) => {
         <Row xs={1} md={3} className="g-4 mx-lg-5 px-lg-5 mx-2 mt-5">
     {
       services.map(service=><Service
-      key={service.id}
+      key={service._id}
         service={service}
       ></Service>)
     }
