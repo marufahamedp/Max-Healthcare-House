@@ -17,7 +17,7 @@ const ReadMoreService = () => {
     const { serviceID } = useParams();
     const [services, setServices] = useState({});
     useEffect(() => {
-        fetch(`http://localhost:5000/healthServices/${serviceID}`)
+        fetch(`https://hidden-beach-44419.herokuapp.com/healthServices/${serviceID}`)
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);

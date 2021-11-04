@@ -13,7 +13,7 @@ const ReadMorePosts = () => {
     const { blogId } = useParams();
     const [post, setPost] = useState({});
     useEffect(() => {
-        fetch(`http://localhost:5000/blogs/${blogId}`)
+        fetch(`https://hidden-beach-44419.herokuapp.com/blogs/${blogId}`)
             .then(res => res.json())
             .then(data => setPost(data));
     }, []);

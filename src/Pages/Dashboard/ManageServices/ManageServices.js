@@ -10,7 +10,7 @@ const ManageServices = (props) => {
     const handelDelete = id => {
         const proceed = window.confirm('Are you sure, you want to delete?')
         if(proceed){
-         const url =`http://localhost:5000/healthServices/${id}`
+         const url =`https://hidden-beach-44419.herokuapp.com/healthServices/${id}`
          fetch(url, {
              method: 'DELETE',
          })

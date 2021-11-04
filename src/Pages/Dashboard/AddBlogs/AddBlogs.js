@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 const AddBlogs = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data =>{
-        axios.post('http://localhost:5000/blogs', data)
+        axios.post('https://hidden-beach-44419.herokuapp.com/blogs', data)
         .then(res => {
             if (data.title) {
                 alert('data inserted');

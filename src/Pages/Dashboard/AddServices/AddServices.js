@@ -5,7 +5,7 @@ import './AddServices.css'
 const AddServices = () => {
     const { register, handleSubmit, reset } = useForm();
   const onSubmit = data => {
-    axios.post('http://localhost:5000/healthServices', data)
+    axios.post('https://hidden-beach-44419.herokuapp.com/healthServices', data)
     .then(res => {
         if (data.servicesTitle) {
             alert('data inserted');

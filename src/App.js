@@ -25,14 +25,14 @@ import ManageAllBlogs from './Pages/Dashboard/ManageAllBlogs/ManageAllBlogs';
 function App() {
   const [services, setServices] = useState([])
   useEffect(()=>{
-    fetch(`http://localhost:5000/healthServices`)
+    fetch(`https://hidden-beach-44419.herokuapp.com/healthServices`)
     .then(res=>res.json())
     .then(data=>setServices(data));
   }, [services])
 
   const [maxBlog, setBlogs] = useState([]);
   useEffect(()=>{
-      fetch(`http://localhost:5000/blogs`)
+      fetch(`https://hidden-beach-44419.herokuapp.com/blogs`)
       .then(res=>res.json())
       .then(data=>setBlogs(data))
   }, [maxBlog])
