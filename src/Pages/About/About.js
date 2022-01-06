@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import about from '../../Images/aboutus.png'
+import Agent from './Agents/Agents';
 const About = () => {
     return (
         <div className="mx-lg-2 fw-bold">
@@ -30,6 +31,7 @@ const About = () => {
                     </div>
                 </Col>
             </Row>
+            <Agent></Agent>
         </div>
     );
 };
